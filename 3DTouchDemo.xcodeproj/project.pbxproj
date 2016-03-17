@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F443DDF1C89203F00C7CE70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F443DDE1C89203F00C7CE70 /* AppDelegate.swift */; };
+		8F443DE11C89203F00C7CE70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F443DE01C89203F00C7CE70 /* ViewController.swift */; };
+		8F443DE41C89203F00C7CE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F443DE21C89203F00C7CE70 /* Main.storyboard */; };
+		8F443DE61C89203F00C7CE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F443DE51C89203F00C7CE70 /* Assets.xcassets */; };
+		8F443DE91C89203F00C7CE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F443DE71C89203F00C7CE70 /* LaunchScreen.storyboard */; };
+		8F443DF41C89338B00C7CE70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F443DF21C89338B00C7CE70 /* DetailViewController.swift */; };
+		8F443DF51C89338B00C7CE70 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F443DF31C89338B00C7CE70 /* DetailViewController.xib */; };
+		8FBE9AA91C8D34BE00C12C30 /* ShortcutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE9AA71C8D34BE00C12C30 /* ShortcutViewController.swift */; };
+		8FBE9AAA1C8D34BE00C12C30 /* ShortcutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE9AA81C8D34BE00C12C30 /* ShortcutViewController.xib */; };
+		A17F2B66E036AE5896FBD56A /* Pods_3DTouchDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E7A79AAA697E280958B016 /* Pods_3DTouchDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12E7A79AAA697E280958B016 /* Pods_3DTouchDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3DTouchDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FA44E84D4A24C19E285948 /* Pods-3DTouchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DTouchDemo/Pods-3DTouchDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8F443DDB1C89203F00C7CE70 /* 3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F443DDE1C89203F00C7CE70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F443DE01C89203F00C7CE70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F443DE31C89203F00C7CE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F443DE51C89203F00C7CE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F443DE81C89203F00C7CE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F443DEA1C89203F00C7CE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F443DF21C89338B00C7CE70 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8F443DF31C89338B00C7CE70 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		8FBE9AA71C8D34BE00C12C30 /* ShortcutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutViewController.swift; sourceTree = "<group>"; };
+		8FBE9AA81C8D34BE00C12C30 /* ShortcutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShortcutViewController.xib; sourceTree = "<group>"; };
+		EBDC492B2495588632E48E25 /* Pods-3DTouchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-3DTouchDemo/Pods-3DTouchDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F443DD81C89203F00C7CE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F2B66E036AE5896FBD56A /* Pods_3DTouchDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F443DD21C89203F00C7CE70 = {
+			isa = PBXGroup;
+			children = (
+				8F443DDD1C89203F00C7CE70 /* 3DTouchDemo */,
+				8F443DDC1C89203F00C7CE70 /* Products */,
+				C014156C8CAA5504017E9C46 /* Pods */,
+				DA6130BB398D271166949C84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F443DDC1C89203F00C7CE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F443DDB1C89203F00C7CE70 /* 3DTouchDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F443DDD1C89203F00C7CE70 /* 3DTouchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE9AA61C8D1A6D00C12C30 /* Shortcut */,
+				8FBE9AA51C8D1A5900C12C30 /* Peek&Pop */,
+				8F443DDE1C89203F00C7CE70 /* AppDelegate.swift */,
+				8F443DE01C89203F00C7CE70 /* ViewController.swift */,
+				8F443DE21C89203F00C7CE70 /* Main.storyboard */,
+				8F443DE51C89203F00C7CE70 /* Assets.xcassets */,
+				8F443DE71C89203F00C7CE70 /* LaunchScreen.storyboard */,
+				8F443DEA1C89203F00C7CE70 /* Info.plist */,
+			);
+			path = 3DTouchDemo;
+			sourceTree = "<group>";
+		};
+		8FBE9AA51C8D1A5900C12C30 /* Peek&Pop */ = {
+			isa = PBXGroup;
+			children = (
+				8F443DF21C89338B00C7CE70 /* DetailViewController.swift */,
+				8F443DF31C89338B00C7CE70 /* DetailViewController.xib */,
+			);
+			name = "Peek&Pop";
+			sourceTree = "<group>";
+		};
+		8FBE9AA61C8D1A6D00C12C30 /* Shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE9AA71C8D34BE00C12C30 /* ShortcutViewController.swift */,
+				8FBE9AA81C8D34BE00C12C30 /* ShortcutViewController.xib */,
+			);
+			name = Shortcut;
+			sourceTree = "<group>";
+		};
+		C014156C8CAA5504017E9C46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71FA44E84D4A24C19E285948 /* Pods-3DTouchDemo.debug.xcconfig */,
+				EBDC492B2495588632E48E25 /* Pods-3DTouchDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA6130BB398D271166949C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E7A79AAA697E280958B016 /* Pods_3DTouchDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F443DDA1C89203F00C7CE70 /* 3DTouchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F443DED1C89203F00C7CE70 /* Build configuration list for PBXNativeTarget "3DTouchDemo" */;
+			buildPhases = (
+				0FF701D0C9C8190A88102F80 /* Check Pods Manifest.lock */,
+				8F443DD71C89203F00C7CE70 /* Sources */,
+				8F443DD81C89203F00C7CE70 /* Frameworks */,
+				8F443DD91C89203F00C7CE70 /* Resources */,
+				F606EC115E90C3AA64E5025E /* Embed Pods Frameworks */,
+				29EE357403FAA470F02C1C8D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DTouchDemo;
+			productName = 3DTouchDemo;
+			productReference = 8F443DDB1C89203F00C7CE70 /* 3DTouchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F443DD31C89203F00C7CE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Baidu, Inc.";
+				TargetAttributes = {
+					8F443DDA1C89203F00C7CE70 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S8N7DZKWT9;
+					};
+				};
+			};
+			buildConfigurationList = 8F443DD61C89203F00C7CE70 /* Build configuration list for PBXProject "3DTouchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F443DD21C89203F00C7CE70;
+			productRefGroup = 8F443DDC1C89203F00C7CE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F443DDA1C89203F00C7CE70 /* 3DTouchDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F443DD91C89203F00C7CE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F443DE91C89203F00C7CE70 /* LaunchScreen.storyboard in Resources */,
+				8F443DE61C89203F00C7CE70 /* Assets.xcassets in Resources */,
+				8F443DE41C89203F00C7CE70 /* Main.storyboard in Resources */,
+				8FBE9AAA1C8D34BE00C12C30 /* ShortcutViewController.xib in Resources */,
+				8F443DF51C89338B00C7CE70 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF701D0C9C8190A88102F80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29EE357403FAA470F02C1C8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DTouchDemo/Pods-3DTouchDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F606EC115E90C3AA64E5025E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DTouchDemo/Pods-3DTouchDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F443DD71C89203F00C7CE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F443DF41C89338B00C7CE70 /* DetailViewController.swift in Sources */,
+				8F443DE11C89203F00C7CE70 /* ViewController.swift in Sources */,
+				8FBE9AA91C8D34BE00C12C30 /* ShortcutViewController.swift in Sources */,
+				8F443DDF1C89203F00C7CE70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F443DE21C89203F00C7CE70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F443DE31C89203F00C7CE70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F443DE71C89203F00C7CE70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F443DE81C89203F00C7CE70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F443DEB1C89203F00C7CE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F443DEC1C89203F00C7CE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F443DEE1C89203F00C7CE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FA44E84D4A24C19E285948 /* Pods-3DTouchDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = 3DTouchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.threeDTouchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8F443DEF1C89203F00C7CE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDC492B2495588632E48E25 /* Pods-3DTouchDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = 3DTouchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.threeDTouchDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F443DD61C89203F00C7CE70 /* Build configuration list for PBXProject "3DTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F443DEB1C89203F00C7CE70 /* Debug */,
+				8F443DEC1C89203F00C7CE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F443DED1C89203F00C7CE70 /* Build configuration list for PBXNativeTarget "3DTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F443DEE1C89203F00C7CE70 /* Debug */,
+				8F443DEF1C89203F00C7CE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F443DD31C89203F00C7CE70 /* Project object */;
+}
